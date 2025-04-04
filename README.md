@@ -4,10 +4,10 @@ A Rust implementation of Nitrolite state channels.
 
 ## Roadmap
 
-[ ]- Remove eip-191 for chain agnostic signatures
-[ ]- Create helpers to convert hexadecimal string signature to type
-[ ]- Create helpers for Channel to return ChannelId
-[ ]- Create NitroRPC types and helpers
+- [ ] Remove eip-191 for chain agnostic signatures
+- [ ] Create helpers to convert hexadecimal string signature to type
+- [ ] Create helpers for Channel to return ChannelId
+- [ ] Create NitroRPC types and helpers
 
 ## Overview
 
