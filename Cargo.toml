@@ -1,6 +1,13 @@
 [package]
 name = "nitrolite"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+description = "Rust implementation of Nitrolite state channels"
+license = "MIT"
 
 [dependencies]
+ethereum-types = "0.14.1"
+secp256k1 = { version = "0.28.0", features = ["global-context", "rand-std"] }
+thiserror = "1.0.50"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
